@@ -1,4 +1,5 @@
 body,
+body *,
 html {
   margin: 0%;
   padding: 0%;
@@ -6,6 +7,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   overflow: hidden;
 
@@ -52,8 +55,55 @@ input {
 }
 
 .main {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.temp {
+  font-size: 3em;
+  padding: 5px;
+}
+
+.description {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.hiLo {
+  display: flex;
+  gap: 25px;
+}
+
+.forecastContainer {
+  margin-top: auto;
+  padding: 10px 25px;
+}
+
+.forecastImg {
+  width: 200px;
+  padding-bottom: 5px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.forecast > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 90px;
+  border: 1px solid;
 }
