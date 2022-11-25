@@ -17,15 +17,6 @@ body {
   background-size: cover;
 }
 
-.search {
-  width: 100vw;
-  display: flex;
-  align-items: flex-end; 
-  padding: 20px;
-  gap: 20px;
-  justify-content: center;
-}
-
 button {
   border: 1px solid white;
   border-radius: 4px;
@@ -35,11 +26,16 @@ button {
   cursor: pointer;
 }
 
+.search {
+  display: flex;
+  justify-content: flex-end;
+}
+
 input {
-  padding: 10px;
-  padding-bottom: 4px;
-  max-width: 50%;
-  text-align: center;
+  width: 200px;
+  margin: 10px;
+  text-indent: 40px;
+  padding: 5px;
   border: none;
   color: white;
   background: none;
@@ -49,5 +45,15 @@ input {
 }
 
 ::placeholder {
-  color: rgba(255, 255, 255, 0.251);
+  background-image: url(../Images/search-line.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  opacity: .45;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

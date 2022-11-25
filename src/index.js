@@ -1,6 +1,6 @@
 import "./style/main.css"
 
-let input = document.querySelector('input')
+const input = document.querySelector('input')
 let searchTerm = 'los angeles';
 let temperature = ' °F'
 
@@ -36,8 +36,8 @@ function getInfo() {
 
 getInfo()
 
-const btn = document.querySelector('button');
+input.addEventListener('keypress', (event => {
+  const key = event.key
+  if (key === 'Enter') getInfo()
+}))
 
-btn.addEventListener('click', () => {
-  getInfo()
-});
