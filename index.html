@@ -10,68 +10,46 @@
 <body>
   <div class="search">
     <input type="text" placeholder="Search">
+    <p class="invalid"></p>
   </div>
-  <div class='main'>
-    <h1 class="city"></h1>
-    <p class="temp"></p>
-    <p class="description"></p>
-    <div class="hiLo">
-      <p class="high"></p>
-      <p class="low"></p>
+
+  <div class="mainContent">
+    <div class='main'>
+      <div class="loadingContent">
+        <div class="loading"></div>
+        <p class="loadingText">Retrieving data, please wait...</p>
+      </div>
+      <div class="content">
+        <h1 class="city"></h1>
+        <div>
+          <img class="temperature">
+          <p class="temp"></p>
+        </div>
+        <p class="description"></p>
+        <div class="hiLo">
+          <p class="high"></p>
+          <p class="low"></p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="forecastContainer">
-    <img class="forecastImg">
-    <div class="forecast">
-      <div class="day1">
-        <p></p>
-        <img>
-        <p></p>
+
+    <div class="extraInfo">
+      <div class="feels">
+        <img class="feels_like">
+        <p class="feels_likeP"></p>
       </div>
-      <div class="day2">
-        <p></p>
-        <img>
-        <p></p>
+      <div class="humidity">
+        <img class="humidityIMG">
+        <p class="humidityP"></p>
       </div>
-      <div class="day3">
-        <p></p>
-        <img>
-        <p></p>
+    </div>
+
+    <div class="forecastContainer">
+      <div class="forecastIMGDIV">
+        <img class="forecastImg">
+        <p>5-Day / 3-Hour Forecast</p>
       </div>
-      <div class="day4">
-        <p></p>
-        <img>
-        <p></p>
-      </div>
-      <div class="day5">
-        <p></p>
-        <img>
-        <p></p>
-      </div>
-      <div class="day6">
-        <p></p>
-        <img>
-        <p></p>
-      </div>
-      <div class="day7">
-        <p></p>
-        <img>
-        <p></p>
-      </div>
-      <div class="day8">
-        <p></p>
-        <img>
-        <p></p>
-      </div>
-      <div class="day9">
-        <p></p>
-        <img>
-        <p></p>
-      </div>
-      <div class="day10">
-        <p></p>
-        <img>
-        <p></p>
+      <div class="forecast">
       </div>
     </div>
   </div>
