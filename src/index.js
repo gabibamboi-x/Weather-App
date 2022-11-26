@@ -1,58 +1,84 @@
 import "./style/main.css";
+import { dom } from "./modules/dom";
+import { handleForecast } from "./modules/handleForecast";
 import forecast from "./Images/forecast.svg"
+import feels_like from "./Images/feelsLike.svg"
+import humidity from "./Images/humidity.svg"
+import temperature from "./Images/temperature.svg"
 
-const input = document.querySelector('input');
-const cityName = document.querySelector('h1');
-const temperature = document.querySelector('.temp');
-const high = document.querySelector('.high');
-const low = document.querySelector('.low');
-const description = document.querySelector('.description');
-const forecastImg = document.querySelector('.forecastImg');
-
-const day1Forecast = document.querySelector('.day1');
-const day2Forecast = document.querySelector('.day2');
-const day3Forecast = document.querySelector('.day3');
-const day4Forecast = document.querySelector('.day4');
-const day5Forecast = document.querySelector('.day5');
-const day6Forecast = document.querySelector('.day6');
-const day7Forecast = document.querySelector('.day7');
-const day8Forecast = document.querySelector('.day8');
-const day9Forecast = document.querySelector('.day9');
-const day10Forecast = document.querySelector('.day10');
 
 let searchTerm = 'los angeles';
-let temp = ' °F';
+export let temp = ' °F';
 
-forecastImg.src = forecast
+dom.temperatureIMG.src = temperature
+dom.feelsLike.src = feels_like
+dom.humidityIMG.src = humidity
+dom.forecastImg.src = forecast
 
 async function getData() {
   try {
-    const weatherData = await fetch('https://api.openweathermap.org/data/2.5/weather?q=' + searchTerm + '&APPID=c578ff5ed4132c56ab86d97945709d42');
+    // get the current weather for the specified city
+    const weatherData = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&APPID=c578ff5ed4132c56ab86d97945709d42`);
     const weatherDataJSON = await weatherData.json();
-    return weatherDataJSON;
+
+    if (weatherDataJSON.cod === '404') {
+      dom.invalid.style.display = 'block'
+      dom.invalid.innerText = "Location not found. The format of your search has to be as follows: 'City', 'City, State' or 'City, Country'.";
+      dom.input.value = '';
+      throw Error('Invalid request')
+    }
+    
+    // get the city's weather forecast
+    const weatherForecast = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${weatherDataJSON.coord.lat}&lon=${weatherDataJSON.coord.lon}&appid=c578ff5ed4132c56ab86d97945709d42`);
+    const weatherForecastJSON = await weatherForecast.json();
+
+    // return the weather data
+
+    return {
+      weatherDataJSON : weatherDataJSON,
+      weatherForecast : weatherForecastJSON,
+    }
   } catch (error) {
     console.log(error);
   };
 };
 
-function getInfo() {
-  if (input.value) searchTerm = input.value;
+async function getInfo() {
+  if (dom.input.value) searchTerm = dom.input.value;
+  dom.content.style.display = 'none';
+  dom.invalid.style.display = 'none';
+  dom.invalid.innerText = '';
+  dom.loadingICN.classList.add('active');
+  dom.loading.style.display = ''
+  dom.loadingText.style.display = ''
+  dom.input.value = '';
   const data = getData();
-  
+
   data
   .then( function(response) {
-    if (response.cod === '404') { 
-      input.value = ''
-      response.message 
-      return
-    }
+    dom.loadingICN.classList.remove('active');
+    dom.loadingText.style.display = 'none'
+    dom.loading.style.display = 'none'
+    dom.content.style.display = '';
 
-    console.log(response)
-    cityName.innerText = response.name + ', ' + response.sys.country;
-    temperature.innerText = response.main.temp + temp;
-    description.innerText = response.weather[0].description
-    high.innerText = 'H: ' + response.main.temp_max + temp
-    low.innerText = 'L: ' + response.main.temp_min + temp
+    let currentTemp = Math.round(Number(response.weatherDataJSON.main.temp))
+    let highTemp = Math.round(Number(response.weatherDataJSON.main.temp_max))
+    let lowTemp = Math.round(Number(response.weatherDataJSON.main.temp_min))
+    let feel = Math.round(Number(response.weatherDataJSON.main.feels_like))
+    let humidityData = Math.round(Number(response.weatherDataJSON.main.humidity))
+
+
+    console.log(response.weatherDataJSON)
+
+    dom.cityName.innerText = response.weatherDataJSON.name + ', ' + response.weatherDataJSON.sys.country;
+    dom.temperature.innerText = currentTemp + temp;
+    dom.description.innerText = response.weatherDataJSON.weather[0].description;
+    dom.high.innerText = 'H: ' + highTemp + temp;
+    dom.low.innerText = 'L: ' + lowTemp + temp;
+    dom.feelsLikeP.innerText = feel + temp
+    dom.humidityP.innerText = humidityData + '%'
+
+    handleForecast(response.weatherForecast)
   })
   .catch(function(error) {
     console.log(error);
@@ -61,9 +87,12 @@ function getInfo() {
 
 getInfo()
 
-input.addEventListener('keypress', (event => {
-  const key = event.key
-  if (key === 'Enter') getInfo()
+dom.input.addEventListener('keypress', (event => {
+  const key = event.key;
+  if (key === 'Enter') getInfo();
 }))
 
-
+dom.input.addEventListener('input', () => {
+  dom.invalid.style.display = 'none';
+  dom.invalid.innerText = '';
+})
