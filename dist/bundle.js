@@ -156,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"images\": () => (/* binding */ images)\n/* harmony export */ });\n/* harmony import */ var _Images_01d_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Images/01d.png */ \"./src/Images/01d.png\");\n/* harmony import */ var _Images_01n_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Images/01n.png */ \"./src/Images/01n.png\");\n/* harmony import */ var _Images_02d_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Images/02d.png */ \"./src/Images/02d.png\");\n/* harmony import */ var _Images_02n_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Images/02n.png */ \"./src/Images/02n.png\");\n/* harmony import */ var _Images_03d_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Images/03d.png */ \"./src/Images/03d.png\");\n/* harmony import */ var _Images_03n_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Images/03n.png */ \"./src/Images/03n.png\");\n/* harmony import */ var _Images_04d_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Images/04d.png */ \"./src/Images/04d.png\");\n/* harmony import */ var _Images_04n_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Images/04n.png */ \"./src/Images/04n.png\");\n/* harmony import */ var _Images_09d_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Images/09d.png */ \"./src/Images/09d.png\");\n/* harmony import */ var _Images_09n_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Images/09n.png */ \"./src/Images/09n.png\");\n/* harmony import */ var _Images_10d_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Images/10d.png */ \"./src/Images/10d.png\");\n/* harmony import */ var _Images_10n_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../Images/10n.png */ \"./src/Images/10n.png\");\n/* harmony import */ var _Images_11d_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../Images/11d.png */ \"./src/Images/11d.png\");\n/* harmony import */ var _Images_11n_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../Images/11n.png */ \"./src/Images/11n.png\");\n/* harmony import */ var _Images_13d_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../Images/13d.png */ \"./src/Images/13d.png\");\n/* harmony import */ var _Images_13n_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../Images/13n.png */ \"./src/Images/13n.png\");\n/* harmony import */ var _Images_50d_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../Images/50d.png */ \"./src/Images/50d.png\");\n/* harmony import */ var _Images_50n_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../Images/50n.png */ \"./src/Images/50n.png\");\n/* harmony import */ var _Images_w01d_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../Images/w01d.jpg */ \"./src/Images/w01d.jpg\");\n/* harmony import */ var _Images_w01n_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../Images/w01n.jpg */ \"./src/Images/w01n.jpg\");\n/* harmony import */ var _Images_w02d_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../Images/w02d.jpg */ \"./src/Images/w02d.jpg\");\n/* harmony import */ var _Images_w02n_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../Images/w02n.jpg */ \"./src/Images/w02n.jpg\");\n/* harmony import */ var _Images_w03d_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../Images/w03d.jpg */ \"./src/Images/w03d.jpg\");\n/* harmony import */ var _Images_w03n_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../Images/w03n.jpg */ \"./src/Images/w03n.jpg\");\n/* harmony import */ var _Images_w04d_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../Images/w04d.jpg */ \"./src/Images/w04d.jpg\");\n/* harmony import */ var _Images_w04n_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../Images/w04n.jpg */ \"./src/Images/w04n.jpg\");\n/* harmony import */ var _Images_w09d_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../Images/w09d.jpg */ \"./src/Images/w09d.jpg\");\n/* harmony import */ var _Images_w09n_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../Images/w09n.jpg */ \"./src/Images/w09n.jpg\");\n/* harmony import */ var _Images_w10d_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../Images/w10d.jpg */ \"./src/Images/w10d.jpg\");\n/* harmony import */ var _Images_w10n_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../Images/w10n.jpg */ \"./src/Images/w10n.jpg\");\n/* harmony import */ var _Images_w11d_jpg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../Images/w11d.jpg */ \"./src/Images/w11d.jpg\");\n/* harmony import */ var _Images_w11n_jpg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../Images/w11n.jpg */ \"./src/Images/w11n.jpg\");\n/* harmony import */ var _Images_w13d_jpg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../Images/w13d.jpg */ \"./src/Images/w13d.jpg\");\n/* harmony import */ var _Images_w13n_jpg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../Images/w13n.jpg */ \"./src/Images/w13n.jpg\");\n/* harmony import */ var _Images_w50d_jpg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../Images/w50d.jpg */ \"./src/Images/w50d.jpg\");\n/* harmony import */ var _Images_w50n_jpg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../Images/w50n.jpg */ \"./src/Images/w50n.jpg\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconst images = (() => {\n  return {\n    i01d : _Images_01d_png__WEBPACK_IMPORTED_MODULE_0__,\n    i01n : _Images_01n_png__WEBPACK_IMPORTED_MODULE_1__,\n    i02d : _Images_02d_png__WEBPACK_IMPORTED_MODULE_2__,\n    i02n : _Images_02n_png__WEBPACK_IMPORTED_MODULE_3__,\n    i03d : _Images_03d_png__WEBPACK_IMPORTED_MODULE_4__,\n    i03n : _Images_03n_png__WEBPACK_IMPORTED_MODULE_5__,\n    i04d : _Images_04d_png__WEBPACK_IMPORTED_MODULE_6__,\n    i04n : _Images_04n_png__WEBPACK_IMPORTED_MODULE_7__,\n    i09d : _Images_09d_png__WEBPACK_IMPORTED_MODULE_8__,\n    i09n : _Images_09n_png__WEBPACK_IMPORTED_MODULE_9__,\n    i10d : _Images_10d_png__WEBPACK_IMPORTED_MODULE_10__,\n    i10n : _Images_10n_png__WEBPACK_IMPORTED_MODULE_11__,\n    i11d : _Images_11d_png__WEBPACK_IMPORTED_MODULE_12__,\n    i11n : _Images_11n_png__WEBPACK_IMPORTED_MODULE_13__,\n    i13d : _Images_13d_png__WEBPACK_IMPORTED_MODULE_14__,\n    i13n : _Images_13n_png__WEBPACK_IMPORTED_MODULE_15__,\n    i50d : _Images_50d_png__WEBPACK_IMPORTED_MODULE_16__,\n    i50n : _Images_50n_png__WEBPACK_IMPORTED_MODULE_17__,\n\n    w01d : _Images_w01d_jpg__WEBPACK_IMPORTED_MODULE_18__,\n    w01n : _Images_w01n_jpg__WEBPACK_IMPORTED_MODULE_19__,\n    w02d : _Images_w02d_jpg__WEBPACK_IMPORTED_MODULE_20__,\n    w02n : _Images_w02n_jpg__WEBPACK_IMPORTED_MODULE_21__,\n    w03d : _Images_w03d_jpg__WEBPACK_IMPORTED_MODULE_22__,\n    w03n : _Images_w03n_jpg__WEBPACK_IMPORTED_MODULE_23__,\n    w04d : _Images_w04d_jpg__WEBPACK_IMPORTED_MODULE_24__,\n    w04n : _Images_w04n_jpg__WEBPACK_IMPORTED_MODULE_25__,\n    w09d : _Images_w09d_jpg__WEBPACK_IMPORTED_MODULE_26__,\n    w09n : _Images_w09n_jpg__WEBPACK_IMPORTED_MODULE_27__,\n    w10d : _Images_w10d_jpg__WEBPACK_IMPORTED_MODULE_28__,\n    w10n : _Images_w10n_jpg__WEBPACK_IMPORTED_MODULE_29__,\n    w11d : _Images_w11d_jpg__WEBPACK_IMPORTED_MODULE_30__,\n    w11n : _Images_w11n_jpg__WEBPACK_IMPORTED_MODULE_31__,\n    w13d : _Images_w13d_jpg__WEBPACK_IMPORTED_MODULE_32__,\n    w13n : _Images_w13n_jpg__WEBPACK_IMPORTED_MODULE_33__,\n    w50d : _Images_w50d_jpg__WEBPACK_IMPORTED_MODULE_34__,\n    w50n : _Images_w50n_jpg__WEBPACK_IMPORTED_MODULE_35__,\n  }\n})()\n\n//# sourceURL=webpack://weather-app/./src/modules/images.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"images\": () => (/* binding */ images)\n/* harmony export */ });\n/* harmony import */ var _Images_01d_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Images/01d.png */ \"./src/Images/01d.png\");\n/* harmony import */ var _Images_01n_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Images/01n.png */ \"./src/Images/01n.png\");\n/* harmony import */ var _Images_02d_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Images/02d.png */ \"./src/Images/02d.png\");\n/* harmony import */ var _Images_02n_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Images/02n.png */ \"./src/Images/02n.png\");\n/* harmony import */ var _Images_03d_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Images/03d.png */ \"./src/Images/03d.png\");\n/* harmony import */ var _Images_03n_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Images/03n.png */ \"./src/Images/03n.png\");\n/* harmony import */ var _Images_04d_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Images/04d.png */ \"./src/Images/04d.png\");\n/* harmony import */ var _Images_04n_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Images/04n.png */ \"./src/Images/04n.png\");\n/* harmony import */ var _Images_09d_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Images/09d.png */ \"./src/Images/09d.png\");\n/* harmony import */ var _Images_09n_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Images/09n.png */ \"./src/Images/09n.png\");\n/* harmony import */ var _Images_10d_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Images/10d.png */ \"./src/Images/10d.png\");\n/* harmony import */ var _Images_10n_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../Images/10n.png */ \"./src/Images/10n.png\");\n/* harmony import */ var _Images_11d_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../Images/11d.png */ \"./src/Images/11d.png\");\n/* harmony import */ var _Images_11n_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../Images/11n.png */ \"./src/Images/11n.png\");\n/* harmony import */ var _Images_13d_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../Images/13d.png */ \"./src/Images/13d.png\");\n/* harmony import */ var _Images_13n_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../Images/13n.png */ \"./src/Images/13n.png\");\n/* harmony import */ var _Images_50d_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../Images/50d.png */ \"./src/Images/50d.png\");\n/* harmony import */ var _Images_50n_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../Images/50n.png */ \"./src/Images/50n.png\");\n/* harmony import */ var _Images_w01d_jpeg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../Images/w01d.jpeg */ \"./src/Images/w01d.jpeg\");\n/* harmony import */ var _Images_w01n_jpeg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../Images/w01n.jpeg */ \"./src/Images/w01n.jpeg\");\n/* harmony import */ var _Images_w02d_jpeg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../Images/w02d.jpeg */ \"./src/Images/w02d.jpeg\");\n/* harmony import */ var _Images_w02n_jpeg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../Images/w02n.jpeg */ \"./src/Images/w02n.jpeg\");\n/* harmony import */ var _Images_w03d_jpeg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../Images/w03d.jpeg */ \"./src/Images/w03d.jpeg\");\n/* harmony import */ var _Images_w03n_jpeg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../Images/w03n.jpeg */ \"./src/Images/w03n.jpeg\");\n/* harmony import */ var _Images_w04d_jpeg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../Images/w04d.jpeg */ \"./src/Images/w04d.jpeg\");\n/* harmony import */ var _Images_w04n_jpeg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../Images/w04n.jpeg */ \"./src/Images/w04n.jpeg\");\n/* harmony import */ var _Images_w09d_jpeg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../Images/w09d.jpeg */ \"./src/Images/w09d.jpeg\");\n/* harmony import */ var _Images_w09n_jpeg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../Images/w09n.jpeg */ \"./src/Images/w09n.jpeg\");\n/* harmony import */ var _Images_w10d_jpeg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../Images/w10d.jpeg */ \"./src/Images/w10d.jpeg\");\n/* harmony import */ var _Images_w10n_jpeg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../Images/w10n.jpeg */ \"./src/Images/w10n.jpeg\");\n/* harmony import */ var _Images_w11d_jpeg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../Images/w11d.jpeg */ \"./src/Images/w11d.jpeg\");\n/* harmony import */ var _Images_w11n_jpeg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../Images/w11n.jpeg */ \"./src/Images/w11n.jpeg\");\n/* harmony import */ var _Images_w13d_jpeg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../Images/w13d.jpeg */ \"./src/Images/w13d.jpeg\");\n/* harmony import */ var _Images_w13n_jpeg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../Images/w13n.jpeg */ \"./src/Images/w13n.jpeg\");\n/* harmony import */ var _Images_w50d_jpeg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../Images/w50d.jpeg */ \"./src/Images/w50d.jpeg\");\n/* harmony import */ var _Images_w50n_jpeg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../Images/w50n.jpeg */ \"./src/Images/w50n.jpeg\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconst images = (() => {\n  return {\n    i01d : _Images_01d_png__WEBPACK_IMPORTED_MODULE_0__,\n    i01n : _Images_01n_png__WEBPACK_IMPORTED_MODULE_1__,\n    i02d : _Images_02d_png__WEBPACK_IMPORTED_MODULE_2__,\n    i02n : _Images_02n_png__WEBPACK_IMPORTED_MODULE_3__,\n    i03d : _Images_03d_png__WEBPACK_IMPORTED_MODULE_4__,\n    i03n : _Images_03n_png__WEBPACK_IMPORTED_MODULE_5__,\n    i04d : _Images_04d_png__WEBPACK_IMPORTED_MODULE_6__,\n    i04n : _Images_04n_png__WEBPACK_IMPORTED_MODULE_7__,\n    i09d : _Images_09d_png__WEBPACK_IMPORTED_MODULE_8__,\n    i09n : _Images_09n_png__WEBPACK_IMPORTED_MODULE_9__,\n    i10d : _Images_10d_png__WEBPACK_IMPORTED_MODULE_10__,\n    i10n : _Images_10n_png__WEBPACK_IMPORTED_MODULE_11__,\n    i11d : _Images_11d_png__WEBPACK_IMPORTED_MODULE_12__,\n    i11n : _Images_11n_png__WEBPACK_IMPORTED_MODULE_13__,\n    i13d : _Images_13d_png__WEBPACK_IMPORTED_MODULE_14__,\n    i13n : _Images_13n_png__WEBPACK_IMPORTED_MODULE_15__,\n    i50d : _Images_50d_png__WEBPACK_IMPORTED_MODULE_16__,\n    i50n : _Images_50n_png__WEBPACK_IMPORTED_MODULE_17__,\n\n    w01d : _Images_w01d_jpeg__WEBPACK_IMPORTED_MODULE_18__,\n    w01n : _Images_w01n_jpeg__WEBPACK_IMPORTED_MODULE_19__,\n    w02d : _Images_w02d_jpeg__WEBPACK_IMPORTED_MODULE_20__,\n    w02n : _Images_w02n_jpeg__WEBPACK_IMPORTED_MODULE_21__,\n    w03d : _Images_w03d_jpeg__WEBPACK_IMPORTED_MODULE_22__,\n    w03n : _Images_w03n_jpeg__WEBPACK_IMPORTED_MODULE_23__,\n    w04d : _Images_w04d_jpeg__WEBPACK_IMPORTED_MODULE_24__,\n    w04n : _Images_w04n_jpeg__WEBPACK_IMPORTED_MODULE_25__,\n    w09d : _Images_w09d_jpeg__WEBPACK_IMPORTED_MODULE_26__,\n    w09n : _Images_w09n_jpeg__WEBPACK_IMPORTED_MODULE_27__,\n    w10d : _Images_w10d_jpeg__WEBPACK_IMPORTED_MODULE_28__,\n    w10n : _Images_w10n_jpeg__WEBPACK_IMPORTED_MODULE_29__,\n    w11d : _Images_w11d_jpeg__WEBPACK_IMPORTED_MODULE_30__,\n    w11n : _Images_w11n_jpeg__WEBPACK_IMPORTED_MODULE_31__,\n    w13d : _Images_w13d_jpeg__WEBPACK_IMPORTED_MODULE_32__,\n    w13n : _Images_w13n_jpeg__WEBPACK_IMPORTED_MODULE_33__,\n    w50d : _Images_w50d_jpeg__WEBPACK_IMPORTED_MODULE_34__,\n    w50n : _Images_w50n_jpeg__WEBPACK_IMPORTED_MODULE_35__,\n  }\n})()\n\n//# sourceURL=webpack://weather-app/./src/modules/images.js?");
 
 /***/ }),
 
@@ -400,183 +400,183 @@ eval("module.exports = __webpack_require__.p + \"ca535e9355f80b353165.svg\";\n\n
 
 /***/ }),
 
-/***/ "./src/Images/w01d.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w01d.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w01d.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w01d.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0402b897008f0916c157.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w01d.jpg?");
+eval("module.exports = __webpack_require__.p + \"96db20347c6d047497b5.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w01d.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w01n.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w01n.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w01n.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w01n.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"65f5073d5c45e00659fd.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w01n.jpg?");
+eval("module.exports = __webpack_require__.p + \"6fbbea15216bf8762f6f.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w01n.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w02d.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w02d.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w02d.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w02d.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"19b7d4deef63e17ba384.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w02d.jpg?");
+eval("module.exports = __webpack_require__.p + \"14e6dc7731a0c90a8d7b.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w02d.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w02n.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w02n.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w02n.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w02n.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f90caa9520e76befc20b.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w02n.jpg?");
+eval("module.exports = __webpack_require__.p + \"51d0a0e35ec5ed37e924.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w02n.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w03d.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w03d.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w03d.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w03d.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f0da7387867d9bb9450a.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w03d.jpg?");
+eval("module.exports = __webpack_require__.p + \"43aa82b9593bd8ae02ad.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w03d.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w03n.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w03n.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w03n.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w03n.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"6a62aece07582ab61741.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w03n.jpg?");
+eval("module.exports = __webpack_require__.p + \"7351718330bfd1441a94.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w03n.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w04d.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w04d.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w04d.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w04d.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a90964d2fdddcdd11546.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w04d.jpg?");
+eval("module.exports = __webpack_require__.p + \"7eed06a9a594f6daabcd.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w04d.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w04n.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w04n.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w04n.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w04n.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8067b293d9efd91bdbd0.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w04n.jpg?");
+eval("module.exports = __webpack_require__.p + \"817a38a553c53492b7f0.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w04n.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w09d.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w09d.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w09d.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w09d.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8d58a67ce87ed1357baa.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w09d.jpg?");
+eval("module.exports = __webpack_require__.p + \"ce6e3859f450e8eb9f4c.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w09d.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w09n.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w09n.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w09n.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w09n.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"07d238aa306348be1cff.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w09n.jpg?");
+eval("module.exports = __webpack_require__.p + \"650e75c72e5ca9035ad8.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w09n.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w10d.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w10d.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w10d.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w10d.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"d649f5b1100903a99c7c.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w10d.jpg?");
+eval("module.exports = __webpack_require__.p + \"c793250633183815a44f.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w10d.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w10n.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w10n.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w10n.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w10n.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"99a1fdcf2131c6ead57d.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w10n.jpg?");
+eval("module.exports = __webpack_require__.p + \"1f3f66e84d8c01398a24.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w10n.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w11d.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w11d.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w11d.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w11d.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"3304d0ac2841e5cbb61a.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w11d.jpg?");
+eval("module.exports = __webpack_require__.p + \"5a3b9c269c1ede542232.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w11d.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w11n.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w11n.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w11n.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w11n.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"56b8872b014c0f880d8e.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w11n.jpg?");
+eval("module.exports = __webpack_require__.p + \"ae682c06677e4351a72a.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w11n.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w13d.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w13d.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w13d.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w13d.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a0b7138d8f90fe052bc7.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w13d.jpg?");
+eval("module.exports = __webpack_require__.p + \"b3329234cbe102a76061.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w13d.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w13n.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w13n.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w13n.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w13n.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0a57d7bd0c57d6d9e0c8.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w13n.jpg?");
+eval("module.exports = __webpack_require__.p + \"20ee166838f9b427e946.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w13n.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w50d.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w50d.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w50d.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w50d.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"68c3b14a7e8b3ec3ecee.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w50d.jpg?");
+eval("module.exports = __webpack_require__.p + \"793ce547439a5f9d4f3a.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w50d.jpeg?");
 
 /***/ }),
 
-/***/ "./src/Images/w50n.jpg":
-/*!*****************************!*\
-  !*** ./src/Images/w50n.jpg ***!
-  \*****************************/
+/***/ "./src/Images/w50n.jpeg":
+/*!******************************!*\
+  !*** ./src/Images/w50n.jpeg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"b484344b7b517759a88b.jpg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w50n.jpg?");
+eval("module.exports = __webpack_require__.p + \"4ea68edafde7f77991be.jpeg\";\n\n//# sourceURL=webpack://weather-app/./src/Images/w50n.jpeg?");
 
 /***/ })
 
