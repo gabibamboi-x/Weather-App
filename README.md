@@ -1,7 +1,10 @@
 # Weather-App
 
 Weather-App is, well as the title says - a weather app. Users can search for a city and get the current weather and the forecast for the next 5 days. They can also chose their preferred temperature unit.
+
+
 ![App Screenshot](https://github.com/gabibamboi-x/Weather-App/blob/main/src/Images/screenshot.png)
+
 
 ## Features
 - Easy to use
