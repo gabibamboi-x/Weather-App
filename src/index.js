@@ -92,9 +92,6 @@ async function getInfo() {
       feel = convert(feel);
       temp = ' °C';
     }
-    
-    // set background based on the weather icon id from the api
-    document.body.background = images['w' + response.weatherDataJSON.weather[0].icon];
 
     // show the data to the user
     dom.cityName.innerText = response.weatherDataJSON.name + ', ' + response.weatherDataJSON.sys.country;
