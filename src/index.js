@@ -8,7 +8,7 @@ import humidity from "./Images/humidity.svg";
 import temperature from "./Images/temperature.svg";
 
 
-let searchTerm = 'los angeles';
+let searchTerm = 'iasi';
 let previousTerm;
 export let tempType = 'C';
 export let temp = ' °F';
