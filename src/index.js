@@ -94,6 +94,9 @@ async function getInfo() {
       temp = ' °C';
     }
 
+    // set the background according to the weather
+    document.querySelector('.bckg').style.backgroundImage = 'url(' + images[`w${response.weatherDataJSON.weather[0].icon}`] + ')';
+
     // show the data to the user
     dom.cityName.innerText = response.weatherDataJSON.name + ', ' + response.weatherDataJSON.sys.country;
     dom.temperature.innerText = currentTemp + temp;
@@ -105,9 +108,6 @@ async function getInfo() {
 
     // show the forecast
     handleForecast(response.weatherForecast);
-
-    // set the background according to the weather
-    document.querySelector('.bckg').style.backgroundImage = 'url(' + images[`w${response.weatherDataJSON.weather[0].icon}`] + ')';
   })
   .catch(function(error) {
     console.log(error);
