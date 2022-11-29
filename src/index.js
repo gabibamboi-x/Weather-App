@@ -56,6 +56,7 @@ export function convert(t) {
 }
 
 async function getInfo() {
+  dom.input.blur()
   // check if theres a city name in the input field
   if (dom.input.value) searchTerm = dom.input.value;
   // remove the error message 
@@ -104,12 +105,14 @@ async function getInfo() {
 
     // show the forecast
     handleForecast(response.weatherForecast);
+
+    // set the background according to the weather
+    document.querySelector('.bckg').style.backgroundImage = 'url(' + images[`w${response.weatherDataJSON.weather[0].icon}`] + ')';
   })
   .catch(function(error) {
     console.log(error);
   });
 };
-
 // initial api call when the page is loaded
 getInfo();
 
